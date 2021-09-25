@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#sidebar{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: #000;
+    left: -300px;
+    transition: .3s;
+    background: url(/image/Egg.jpg);
+    opacity: 0.9;
+    
+    
+    
+}
+
+#sidebar ul li{
+    list-style: none;
+    color: #fff;
+    padding: 20px 24px;
+    font-size: 21px;
+    
+}
+
+#sidebar ul li:hover{
+    list-style: none;
+    color: rgb(7, 7, 7);
+    padding: 20px 24px;
+    font-size: 21px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    
+    
+}
+
+#sidebar.active{
+    left: 0;
+}
+
+.toggle-btn span{
+    width: 45px;
+    height: 4px;
+    background: #000;
+    display:block;
+    margin-top: 4px;
+}
+
+
+
+
+header{
+    height: 100px;
+    background: rgb(0, 174, 255);
+}
+
+.logo{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    transition: .3s;
+}
+.logo:hover{
+    color: rgb(238, 255, 0);
+}
+
+
+
+.master-box{
+    width: 100%;
+    height: 1000px;
+   
+    
+    
+    
+}
+
+.box{
+    background: #eeeeee;
+    margin: 70px;
+    height: 80%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 35px;
+    padding: 100px;
+    text-align: center;
+    
+    border-radius: 100px;
+    
+    
+    
+    
+}
+.img{
+    cursor: pointer;
+    width: 80%;
+    height: 50%;    
+}
+
+.box1{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 25%;
+    height: 50%;
+    background:rgb(255, 174, 0);
+}
+.box2{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 25%;
+    height: 50%;
+    background:rgb(255, 174, 0);
+}
+.box3{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 25%;
+    height: 50%;
+    background:rgb(255, 174, 0);
+}
+
+.box p{
+    font-size: 25px;
+}
+
+.img{
+    background: url('/image/Egg.jpg');
+    
+}
+
+.btn-learnmore{
+    position: absolute;
+    top: 800px;
+    right: 600px;
+    
+    height: 45px;
+    padding:10px;
+    background: rgb(0, 174, 255);
+    border-radius: 20px;
+    cursor:pointer;
+    
+}
+.btn-learnmore:hover{
+    color: white;
+    background: rgb(2, 137, 199);
+}
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #333333;
+    margin-top: 50px;
+}
+
+footer div{
+    color: rgb(184, 184, 184);
+    text-align: center;
+    
+    padding: 50px;
+    
+}
+footer div p {
+    margin-top: 5px;
+}
